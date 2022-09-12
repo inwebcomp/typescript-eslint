@@ -1,6 +1,6 @@
 {
   "name": "@escral/vue-typescript-eslint-preset",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "eslint-config.mjs",
   "repository": {
     "type": "git",
@@ -16,7 +16,6 @@
     "@rushstack/eslint-patch": "^1.1.4",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
     "@typescript-eslint/parser": "^5.36.2",
-    "@vue/eslint-config-prettier": "^7.0.0",
     "@vue/eslint-config-typescript": "^11.0.1",
     "eslint": "8.22.0",
     "eslint-plugin-vue": "^9.4.0"
