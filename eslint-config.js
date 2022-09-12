@@ -1,10 +1,4 @@
-export default {
-    root: true,
-
-    env: {
-        node: true,
-    },
-
+module.exports = {
     parserOptions: {
         "parser": "@typescript-eslint/parser",
     },
