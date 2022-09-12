@@ -1,6 +1,6 @@
 {
   "name": "@escral/vue-typescript-eslint-preset",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "eslint-config.mjs",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
     "url": "https://github.com/inwebcomp/vue-typescript-eslint-preset/issues"
   },
   "homepage": "https://github.com/inwebcomp/vue-typescript-eslint-preset#readme",
-  "devDependencies": {
+  "dependencies": {
     "@rushstack/eslint-patch": "^1.1.4",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
     "@typescript-eslint/parser": "^5.36.2",
