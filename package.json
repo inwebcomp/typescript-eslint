@@ -1,7 +1,10 @@
 {
   "name": "@escral/vue-typescript-eslint-preset",
-  "version": "1.0.5",
-  "main": "eslint-config.mjs",
+  "version": "1.0.6",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/inwebcomp/vue-typescript-eslint-preset.git"
