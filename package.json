@@ -1,5 +1,5 @@
 {
-  "name": "@escral/vue-typescript-eslint-preset",
+  "name": "@escral/eslint-config-vue-typescript",
   "version": "1.0.7",
   "main": "index.js",
   "files": [
@@ -7,14 +7,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inwebcomp/vue-typescript-eslint-preset.git"
+    "url": "git+https://github.com/inwebcomp/eslint-config-vue-typescript.git"
   },
   "author": "Alexander Topalo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/inwebcomp/vue-typescript-eslint-preset/issues"
+    "url": "https://github.com/inwebcomp/eslint-config-vue-typescript/issues"
   },
-  "homepage": "https://github.com/inwebcomp/vue-typescript-eslint-preset#readme",
+  "homepage": "https://github.com/inwebcomp/eslint-config-vue-typescript#readme",
   "dependencies": {
     "@rushstack/eslint-patch": "^1.1.4",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
