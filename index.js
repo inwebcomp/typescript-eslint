@@ -6,13 +6,23 @@ module.exports = {
     rules: {
         "no-console": "off",
         "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
-        "semi": ["error", "never"],
+
+        // Vue
         "vue/html-indent": ["error", 4, {"baseIndent": 1}],
         "vue/script-indent": ["error", 4, {"baseIndent": 1}],
+        "vue/multi-word-component-names": "off",
+
+        // Typescript
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-var-requires": "off",
+        "@typescript-eslint/no-empty-function": ["warn"],
+
+        // General
+        "semi": ["error", "never"],
         "comma-dangle": ["error", "always-multiline"],
-        "vue/multi-word-component-names": "off",
+        "object-curly-spacing": ["warn", "always", {
+            "arraysInObjects": false,
+        }],
     },
 
     ignorePatterns: ["/node_modules/*", "node_modules/*"],
