@@ -11,17 +11,35 @@ module.exports = {
         "vue/html-indent": ["error", 4, {"baseIndent": 1}],
         "vue/script-indent": ["error", 4, {"baseIndent": 1}],
         "vue/multi-word-component-names": "off",
+        "vue/max-attributes-per-line": ["warn", {
+            "singleline": 3,
+            "multiline": 1,
+        }],
 
         // Typescript
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-var-requires": "off",
         "@typescript-eslint/no-empty-function": ["warn"],
+        "@typescript-eslint/ban-ts-comment": ["off"],
 
         // General
         "semi": ["error", "never"],
         "comma-dangle": ["error", "always-multiline"],
-        "object-curly-spacing": ["warn", "always", {
-            "arraysInObjects": false,
+        "object-curly-spacing": ["warn", "always", { "arraysInObjects": false }],
+        "keyword-spacing": ["error"],
+        "block-spacing": ["error"],
+        "arrow-spacing": ["error"],
+        "template-curly-spacing": ["error"],
+        "computed-property-spacing": ["error", "never"],
+        "key-spacing": ["error"],
+        "comma-spacing": ["error", { "before": false, "after": true }],
+        "space-infix-ops": ["error"],
+
+        // Plugins
+        "import-newlines/enforce": ["error", {
+            "items": 4,
+            "max-len": 120,
+            "semi": false,
         }],
     },
 
@@ -36,5 +54,6 @@ module.exports = {
 
     plugins: [
         "@typescript-eslint",
+        "import-newlines",
     ],
 }
